@@ -4,7 +4,7 @@ Một cửa hàng điện máy muốn dự đoán xem một khách hàng bước
 Tuổi (năm).
 Thu nhập (triệu VNĐ/tháng).
 Dựa vào đó, khách hàng được gắn nhãn là `1` (Có mua) hoặc `0` (Không mua).
-Bảng dữ liệu lịch sử:
+Bảng dữ liệu lịch sử:  
 Tuổi	Thu nhập (triệu VNĐ)	Quyết định mua (1: Có, 0: Không)
 25	15	0
 35	20	0
@@ -14,16 +14,16 @@ Tuổi	Thu nhập (triệu VNĐ)	Quyết định mua (1: Có, 0: Không)
 30	18	0
 40	40	1
 50	45	1
-Yêu cầu:
+Yêu cầu:  
 Xây dựng một mô hình Decision Tree bằng thư viện `scikit-learn` để huấn luyện trên tập dữ liệu này. Sau đó, dự đoán xem một khách hàng mới (38 tuổi, thu nhập 35 triệu) liệu có mua điện thoại không và trực quan hóa cây quyết định.
 ---
-2. Cài đặt môi trường
+2. Cài đặt môi trường  
 Đảm bảo bạn đã cài đặt các thư viện cần thiết trước khi chạy code:
 ```bash
 pip install numpy scikit-learn matplotlib
 ```
 ---
-3. Code Python
+3. Code Python  
 Tạo file `main.py` (hoặc tên bất kỳ) và dán đoạn code sau vào để chạy:
 ```python
 import numpy as np
